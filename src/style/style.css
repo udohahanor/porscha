@@ -19,8 +19,8 @@
 {
     font-family: 'Montserrat';
     font-weight: 500;
-    font-size: 15pt;
-    padding: 20px 50px;
+    font-size: 11pt;
+    padding: 20px 10px;
     display: inline-block;
     list-style: none;
     text-decoration: none;
@@ -46,4 +46,12 @@ button:hover
     color: black;
     background-color: transparent;
     font-size: 15pt;
+}
+
+@media screen and (max-width: 980px) 
+{
+    body
+    {
+        display: none;
+    }
 }
