@@ -7,10 +7,16 @@
     background-color: white;
 }
 
+.logo img
+{
+    width: 40px;
+}
+
 .navbar
 {
     display: flex;
-    padding: 10px 40px;
+    width: 100%;
+    padding: 10px 20px;
     justify-content: space-between;
     align-items: center;
 }
@@ -20,6 +26,7 @@
     font-family: 'Montserrat';
     font-weight: 800;
     font-size: 11pt;
+    letter-spacing: 1.2pt;
     padding: 20px 10px;
     display: inline-block;
     list-style: none;
@@ -35,12 +42,11 @@ button
     cursor: pointer;
 }
 
-.content
+.content img
 {
-    justify-content: center;
-    padding: 20px 10px;
-    display: flex;
-    height: 50%;
+    padding: auto;
+    width: 100%;
+    height: fit-content;
 }
 
 @media screen and (max-width: 960px) 
