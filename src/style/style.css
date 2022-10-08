@@ -7,6 +7,11 @@
     background-color: white;
 }
 
+.hero
+{
+    width: 100%;
+}
+
 .logo img
 {
     width: 40px;
@@ -24,7 +29,7 @@
 .nav-menu li
 {
     font-family: 'Montserrat';
-    font-weight: 800;
+    font-weight: 800pt;
     font-size: 11pt;
     letter-spacing: 1.2pt;
     padding: 20px 10px;
@@ -45,6 +50,30 @@ button
 .content img
 {
     width: 100%;
+}
+
+.details
+{
+    display: flex;
+    padding: 10px 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.details h1
+{
+    font-family: 'Montserrat';
+    font-weight: 500pt;
+    font-size: 18pt;
+}
+
+.specs h1
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    display: inline-block;
+    padding: 0px 60px;
 }
 
 @media screen and (max-width: 960px) 
