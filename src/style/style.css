@@ -67,13 +67,50 @@ button
     font-size: 18pt;
 }
 
-.specs h1
+.specs
 {
     display: flex;
     align-items: center;
-    justify-content: space-around;
+    justify-content: space-between;
     display: inline-block;
     padding: 0px 60px;
+}
+
+.card
+{
+    display: block;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+}
+
+.card .main-header
+{
+    font-family: 'Montserrat';
+    font-size: 11pt;
+    letter-spacing: 1.0px;
+    opacity: 50%;
+}
+
+.card .sub-header
+{
+    font-size: 20pt;
+    font-weight: 900;
+}
+
+.make
+{
+    font-family: 'Montserrat';
+    font-size: 11pt;
+    font-weight: 900pt;
+}
+
+.mode
+{
+    font-family: 'Montserrat';
+    font-size: 11pt;
+    opacity: 50%;
 }
 
 @media screen and (max-width: 960px) 
