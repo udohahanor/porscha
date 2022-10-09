@@ -119,9 +119,16 @@ button
     opacity: 50%;
 }
 
+.gallery
+{
+    display: flex;
+    padding: 0px 10px;
+}
+
 .carousel img
 {
     width: 128px;
+    padding: 0px 10px;
 }
 
 @media screen and (max-width: 960px) 
