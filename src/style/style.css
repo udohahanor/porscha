@@ -55,7 +55,7 @@ button
 .details
 {
     display: flex;
-    padding: 10px 20px;
+    padding: 10px;
     align-items: center;
     justify-content: space-between;
 }
@@ -73,7 +73,7 @@ button
     align-items: center;
     justify-content: space-between;
     display: inline-block;
-    padding: 0px 60px;
+    padding: 0px 20px;
 }
 
 .card
@@ -95,7 +95,7 @@ button
 
 .card .sub-header
 {
-    font-size: 20pt;
+    font-size: 16pt;
     font-weight: 900;
 }
 
@@ -106,11 +106,16 @@ button
     font-weight: 00pt;
 }
 
-.mode
+.model
 {
     font-family: 'Montserrat';
-    font-size: 11pt;
+    font-size: 10pt;
     opacity: 50%;
+}
+
+.carousel
+{
+    padding: 0px 2px;
 }
 
 .carousel img
